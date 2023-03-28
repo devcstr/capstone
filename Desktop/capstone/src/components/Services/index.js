@@ -17,7 +17,7 @@ function Services() {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get('http://localhost:8000/api/service/1');
+            const response = await axios.get('https://sarisaridb.000webhostapp.com/api/service/1');
             setTitle(response.data.service.title);
             setDescription(response.data.service.description);
           } catch (error) {
@@ -30,7 +30,7 @@ function Services() {
       useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get('http://localhost:8000/api/service/2');
+            const response = await axios.get('https://sarisaridb.000webhostapp.com/api/service/2');
             setTitle2(response.data.service.title);
             setDescription2(response.data.service.description);
           } catch (error) {
@@ -43,7 +43,7 @@ function Services() {
       useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get('http://localhost:8000/api/service/3');
+            const response = await axios.get('https://sarisaridb.000webhostapp.com/api/service/3');
             setTitle3(response.data.service.title);
             setDescription3(response.data.service.description);
           } catch (error) {

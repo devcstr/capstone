@@ -15,7 +15,7 @@ function Register() {
   const submit = async e => {
     e.preventDefault();
 
-    await axios.post('http://localhost:8000/api/register', {
+    await axios.post('https://sarisaridb.000webhostapp.com/api/register', {
       name, email, password
     });
 
